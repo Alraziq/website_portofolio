@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background: white; /* Mengubah latar belakang menjadi putih */
+    padding: 20px 0; /* Memberikan ruang atas dan bawah */
+    text-align: center; /* Menyatukan teks ke tengah */
+    border-bottom: 3px solid #d3d3d3; /* Garis bawah tipis untuk efek pemisah */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Agar tetap dalam satu baris */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Mengubah warna teks menjadi hitam */
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 30px auto;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.text-section h1 {
+    font-size: 50px;
+}
+
+.text-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-section h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #D4A017;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 30px auto;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.text-section h1 {
+    font-size: 40px;
+}
+
+.text-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #D4A017;
+}
+
+/* Bagian foto dan background */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 100%;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper img {
+    width: 90%; /* Ukuran foto agar tidak full namun tetap besar */
+    height: auto;
+    max-height: 90%;
+}
